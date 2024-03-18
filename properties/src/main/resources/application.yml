@@ -1,0 +1,8 @@
+tjh:
+  storage:
+    name-space:
+      name: asd
+      storage:
+        postgis:
+          host: 192.168.12.12
+          port: 11111

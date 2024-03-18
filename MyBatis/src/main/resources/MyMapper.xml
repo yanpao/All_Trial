@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.mybatis.MyMapper">
+
+    <resultMap id="allMaps" type="com.example.mybatis.TestInterface">
+        <result column="id" property="id"/>
+        <result column="name" property="name"/>
+        <discriminator column="type" javaType="string">
+            <case value="A" resultType="com.example.mybatis.TestA">
+            </case>
+            <case value="B" resultType="com.example.mybatis.TestB">
+            </case>
+        </discriminator>
+    </resultMap>
+
+    <select id="getAll" resultMap="allMaps">
+        select * from testtable
+    </select>
+
+</mapper>
