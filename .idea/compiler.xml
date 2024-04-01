@@ -9,6 +9,8 @@
         <module name="RabbitMQ" />
         <module name="MyBatis" />
         <module name="Logs" />
+        <module name="hadoop" />
+        <module name="JavaBasis" />
         <module name="properties" />
       </profile>
     </annotationProcessing>

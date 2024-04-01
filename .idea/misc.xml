@@ -8,6 +8,8 @@
         <option value="$PROJECT_DIR$/MyBatis/pom.xml" />
         <option value="$PROJECT_DIR$/RabbitMQ/pom.xml" />
         <option value="$PROJECT_DIR$/properties/pom.xml" />
+        <option value="$PROJECT_DIR$/Hadoop/pom.xml" />
+        <option value="$PROJECT_DIR$/JavaBasis/pom.xml" />
       </list>
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />
